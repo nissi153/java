@@ -4,15 +4,13 @@ import java.util.Scanner;
 public class ex100_19 {
 
 	public static void main(String[] args) {
-		// Á¤¼ö¸¦ ÀÔ·Â¹Ş¾Æ ¾Æ½ºÅ°ÄÚµå 10Áø¼ö°ªÀ¸·Î 
-		// Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇØº¸ÀÚ.
-		System.out.println("ÀÔ·ÂÇÏ¼¼¿ä.");
+		// ì •ìˆ˜ë¥¼ ì…ë ¥ë°›ì•„ ì•„ìŠ¤í‚¤ì½”ë“œ 10ì§„ìˆ˜ê°’ìœ¼ë¡œ 
+		// ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•´ë³´ì.
+		System.out.println("ì…ë ¥í•˜ì„¸ìš”.");
 		Scanner scan = new Scanner(System.in);
-		String ch = scan.nextLine();
-		//¹®ÀÚ¿­À» Á¤¼ö·Î º¯È¯ÇÏ´Â ÇÔ¼ö
-		int ch_int = Integer.parseInt(ch);
+		int n = scan.nextInt();
 		
-		System.out.println((char)ch_int );
+		System.out.println( (char)n );
 
 	}
 
